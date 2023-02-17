@@ -1,0 +1,160 @@
+
+
+body {
+
+  height: 100v;
+  padding: 0;
+  margin: 0;
+  background-color: darkgrey;
+}
+.header, .footer{
+
+    height: 120px;
+    background-color: #f44336;
+    text-align: center;
+}
+
+.footer h3 {
+
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.footer li {
+
+  padding-bottom: 1px;
+}
+
+
+.header h1 {
+
+    font-size: 28px;
+    margin-top: 0px;
+    padding-top: 35px;
+}
+
+img {
+
+    width: 100%;
+    height: 500px;
+    border: 5px #000 solid;
+    border-radius: 30px;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
+  fieldset {
+
+    width: 750px;
+    height: 500px;
+    border: 5px #1c1b1b solid;
+    border-radius: 35px 0 ;
+    box-shadow: 10px 10px 5px #fff;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  
+  }
+  
+  #age {
+  
+    width: 20%;
+  
+  }
+  
+  .input {
+  
+    width: 95%;
+    height: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    display: block;
+  
+  }
+
+  #comments {
+  
+    width: 95%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+  
+  }
+  
+  .hero-btn {
+  
+    width: 7rem;
+    height: 24px;
+    background-color: cyan;
+    color: #000;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    left: 330px;
+
+  }
+  
+  .hero-btn:hover {
+     
+    background-color: #f44336;
+    color: #fff;
+  
+  }
+  
+  .label {
+
+    color:#080707;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: block;
+
+  }
+
+  .fa-solid {
+
+    margin-right: 8px;
+    color: black;
+
+  }
+
+  ul {
+
+    list-style: none;
+    margin-right: 40px;
+
+  }
+
+  /*
+  form section {
+  
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+  
+  } */
+  
